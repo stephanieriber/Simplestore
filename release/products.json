@@ -1,33 +1,55 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
-			"price" : "35.99",
+			"name" : "",
+			"price" : "200 DKK",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "Onesize" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is a very awesome grey T-shirt"
+			"image" : "images/ana1.png",
+			"description" : ""
 		},
 		{
-			"name" : "Cool T-shirt",
-			"price" : "15.99",
+			"name" : "",
+			"price" : "200 DKK",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" },
+				{ "Size" : "Onesize" },
 				{ "Color" : "Blue,Red" },
 			    { "OneOfAKind" : true }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
-			"description" : "This is a really cool blue T-shirt"
+			"image" : "images/ana2.png",
+			"description" : ""
 		},
 		{
-			"name" : "Fun T-shirt",
-			"price" : "15.99",
+			"name" : "",
+			"price" : "200 DKK",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "Onesize" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is another fun grey T-shirt"
+			"image" : "images/ana3.png",
+			"description" : ""
+		},
+		{
+			"name" : "",
+			"price" : "200 DKK",
+			"options" : [
+				{ "Size" : "Onesize" },
+				{ "Color" : "Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "images/ana4.png",
+			"description" : ""
+		},
+		{
+			"name" : "",
+			"price" : "200 DKK",
+			"options" : [
+				{ "Size" : "Onesize" },
+				{ "Color" : "Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "images/ana5.png",
+			"description" : ""
 		}
 	]
 }

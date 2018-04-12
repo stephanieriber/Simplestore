@@ -6,6 +6,137 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
+
+
+/* iconer */
+
+.fa-facebook {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    margin-right: 18px;
+    margin-left: 25px;
+
+}
+
+.fa-instagram {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: -10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    margin-right: 18px;
+    margin-left: -5px;
+    /* margin-top: 5px; */
+}
+
+/*slut */
+
+.mySlides {
+  display:none;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+}
+
+#billede {
+
+  width: 100%;
+position: relative;
+left: 0px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+}
+
+/*footer columns*/
+
+/* boksen der indeholder de andre bokse */
+
+.mainbox{
+
+	overflow:auto;
+	margin: 50px 280px 150px 240px;
+	border: 0px solid black;
+}
+
+/* formular eller information om kunden, boksen til venstre */
+
+div.box-left{
+	float: none;
+	width:60%;
+	border: 0px solid black;
+	padding: 20px;
+  margin: 30px 160px auto;
+}
+
+/* vores kontakt oplyysninger, boksen til højre */
+
+div.box-right{
+	float:none;
+	width:30%;
+	height: 80%;
+	border: 0px solid black;
+	padding: 20px;
+  margin: 30px 275px auto;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	div.box-left{
+		width: 90%;
+	}
+	div.box-right{
+		margin-top:5%;
+		float:left;
+		width:90%;
+	}
+
+
+}
+
+.Ditnavn {
+	width: 400px;
+	text-align:left;
+
+}
+p.tekstForm{
+	padding-left:35px;
+	width: 400px;
+	text-align:left;
+}
+div.containerCenter{
+	text-align:center;
+}
+
+/*hover*/
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border-top: 0px solid black;
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+}
+/*slut*/
 select {
     display: block;
     float: left;
@@ -26,7 +157,7 @@ a.hover {
     display: block;
     float: left;
     text-decoration: none;
-    color: #000;
+    color: #292b53;
 }
 
 .brand:hover {
@@ -34,15 +165,20 @@ a.hover {
 }
 
 .brand img {
-	max-height: 50px;
+  max-width: 100%;
+  border: 0;
 }
 
 /* simpleCart */
 
 .simpleCart_shelfItem {
-    border: 1px solid #EFEFEF;
+    border: 0px solid #EFEFEF;
     padding: 25px 18px 10px 18px;
     margin: 15px 0;
+
+
+
+
 }
 
 .simpleCart_items {
@@ -71,7 +207,7 @@ a.hover {
 }
 
 .item_thumb, .detail_thumb {
-    height: 150px;
+
     display: block;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -159,7 +295,7 @@ a.hover {
 
 .simpleStore_detailView {
     margin: 15px 0px;
-    border: 1px solid #EFEFEF;
+    border: 0px solid #EFEFEF;
     position: relative;
 }
 

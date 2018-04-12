@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>simpleStore</title>
+    <title>KHACS</title>
     <meta name="description" content="A clean, responsive storefront boilerplate with no database or backend">
     <meta name="author" content="">
 
@@ -27,8 +27,21 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109497913-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109497913-2');
+</script>
+
+
 </head>
 <body>
+
+
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -38,10 +51,91 @@
             <a class="button button-primary u-pull-right simpleStore_viewCart">
                 <i class="fa fa-shopping-cart"></i> Cart <span class="simpleCart_total"></span>
             </a>
+
+
         </div>
+
+
+
+        <div class="w3-content w3-section" style="max-width:100%">
+          <img class="mySlides" src="images/damme.png" style="width:100%">
+          <img class="mySlides" src="images/dameee.png" style="width:100%">
+          <img class="mySlides" src="images/dammmee.png" style="width:100%">
+        </div>
+
         <div class="simpleStore_container"></div>
         <div class="simpleStore_cart_container"></div>
     </div>
+
+
+    <div class="footer">
+
+      <div class="mainbox">
+
+    <!-- vores kontakt oplyysninger, boksen til højre  -->
+
+    		<div class="box-left">
+
+          <h3>About</h3>
+
+        <p> Khacs is a t-shirt brand,
+          with a minimalistic and nordic feel.
+          All of our t-shirt are limited edition,
+          and they sell out very fast.
+          So if you wanna get a specific Khacs t-shirt design,
+          you better grab one while you can.</p>
+
+
+
+
+
+
+    		</div>
+
+    		<div class="box-right">
+
+    <!-- formular eller information om kunden, boksen til venstre  -->
+    <h3>Contact </h3>
+    <p>Tlf. +45 31 10 10 69</p>
+    <p>Mail. khacs72@gmail.com</p>
+    <div class="foot">
+
+        <a class="footerlogo" href="https://www.facebook.com/khacs72/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a class="footerlogo" href="https://www.instagram.com/khacs72/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+
+
+    		</div>
+    	</div>
+
+      <div class="box-center">
+
+
+
+
+
+      </div>
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
 
     <!-- Templates
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -132,9 +226,13 @@
 			<p class="error_text"></p>
 			<a href="#" class="close alert_close">&times;</a>
         </div>
+
     </script>
 
 <!-- End Document
+
+
+
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
